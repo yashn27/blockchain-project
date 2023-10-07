@@ -1,0 +1,24 @@
+<schemalist>
+	<schema id="com.github.lainsce.coin" path="/com/github/lainsce/coin/">
+		<key name="window-x" type="i">
+			<default>-1</default>
+			<summary>Window position</summary>
+			<description>The x axis of window position</description>
+		</key>
+		<key name="window-y" type="i">
+			<default>-1</default>
+			<summary>Window position</summary>
+			<description>The y axis of window position</description>
+		</key>
+        <key name="coin" type="i">
+			<default>-1</default>
+			<summary>Last set currency</summary>
+			<description>The last set world currency</description>
+		</key>
+        <key name="virtualcoin" type="i">
+			<default>-1</default>
+			<summary>Last set virtual coin</summary>
+			<description>The last set virtual coin</description>
+		</key>
+	</schema>
+</schemalist>
